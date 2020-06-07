@@ -29,4 +29,7 @@ public interface TaskDao {
 
     @Delete
     void deleteTask(Task task);
+
+    @Query("SELECT * FROM Task WHERE projectId = :taskId")
+    LiveData<Task> getTask(long taskId);
 }
