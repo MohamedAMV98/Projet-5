@@ -225,7 +225,7 @@ public class MainActivity extends AppCompatActivity implements TasksAdapter.Dele
      */
     private void addTask(@NonNull Task task) {
         tasks.add(task);
-        mTaskViewModel.insert(task);
+        mTaskViewModel.createTask(task);
     }
 
     /**

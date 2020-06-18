@@ -55,8 +55,10 @@ public class DataBaseTest {
     @Test
     public void deleteTask() throws Exception{
         this.db.mTaskDao().createTask(TASK);
-        this.db.mTaskDao().deleteTask(TASK);
         List<Task> testList = LiveDataTestUtil.getValue(db.mTaskDao().getTasks());
+        assertTrue(testList.size() == 1);
+        this.db.mTaskDao().deleteTask(TASK);
+        testList = LiveDataTestUtil.getValue(db.mTaskDao().getTasks());
         assertTrue( testList.size() == 0);
     }
 }

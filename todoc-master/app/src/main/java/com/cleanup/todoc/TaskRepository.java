@@ -21,9 +21,8 @@ public class TaskRepository {
         mTaskDao = database.mTaskDao();
         allTasks = mTaskDao.getTasks();
     }
-
-    public void insert(Task task){
-        new InsertTaskAsynchTask(mTaskDao).execute(task);
+    public void create(Task task){
+         new CreateTaskAsynchTask(mTaskDao).execute(task);
     }
     public void update(Task task){
         new UpdateTaskAsynchTask(mTaskDao).execute(task);
@@ -35,16 +34,16 @@ public class TaskRepository {
         return allTasks;
     }
 
-    private static class InsertTaskAsynchTask extends AsyncTask<Task, Void, Void> {
+    private static class CreateTaskAsynchTask extends AsyncTask<Task, Void, Void> {
         private TaskDao mTaskDao;
 
-        public InsertTaskAsynchTask(TaskDao taskDao) {
+        public CreateTaskAsynchTask(TaskDao taskDao) {
             this.mTaskDao = taskDao;
         }
 
         @Override
         protected Void doInBackground(Task... tasks) {
-            mTaskDao.insertTask(tasks[0]);
+            mTaskDao.createTask(tasks[0]);
             return null;
         }
     }
