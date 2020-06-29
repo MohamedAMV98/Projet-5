@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b20bfdd9-845f-47b5-99e2-5bc822506c37" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_XL_API_29_xxxhdpi_" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -59,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Android App.todoc-master-app">
+  <component name="RunManager" selected="Android Instrumented Tests.DataBaseTest">
     <configuration name="MainActivityInstrumentedTest$SimpleEntityReadWriteTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <extension name="coverage">
@@ -186,7 +189,7 @@
       </method>
     </configuration>
     <configuration name="DataBaseTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+      <module name="todoc-master-app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="com.cleanup.todoc.DataBaseTest" />
@@ -365,6 +368,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="679" y="165" key="#DataBaseTest" timestamp="1593445976328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="165" key="#DataBaseTest/0.0.1920.1040@0.0.1920.1040" timestamp="1593445976328" />
     <state x="896" y="257" key="#Gradle" timestamp="1591359616996">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -385,22 +392,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1084" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593445545205" />
-    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1591797845504">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1593447107298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591797845504" />
-    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1591797845504">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107298" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1593447107297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591797845504" />
-    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1591797845504">
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107297" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1593447107297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591797845504" />
-    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1591797845504">
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107297" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1593447107298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591797845504" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107298" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1591354743615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
