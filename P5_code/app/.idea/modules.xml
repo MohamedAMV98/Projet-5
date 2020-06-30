@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2111384326/P5_SHENEET_Mohamed-todoc-master.iml" filepath="$PROJECT_DIR$/.idea/modules/2111384326/P5_SHENEET_Mohamed-todoc-master.iml" group="todoc-master" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/41513459/P5_code.iml" filepath="$PROJECT_DIR$/.idea/modules/41513459/P5_code.iml" group="P5_code" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P5_code-app.iml" filepath="$PROJECT_DIR$/.idea/modules/P5_code-app.iml" group="P5_code/app" />
       <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="todoc-master/app" />
       <module fileurl="file://$PROJECT_DIR$/../todoc-master.iml" filepath="$PROJECT_DIR$/../todoc-master.iml" group="todoc-master" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/todoc-master-app.iml" filepath="$PROJECT_DIR$/.idea/modules/todoc-master-app.iml" group="todoc-master/app" />
     </modules>
   </component>
 </project>
