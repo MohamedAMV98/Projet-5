@@ -7,7 +7,7 @@
     <list default="true" id="b20bfdd9-845f-47b5-99e2-5bc822506c37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cleanup/todoc/TaskUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleanup/todoc/TaskUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +63,8 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Android Instrumented Tests.DataBaseTest">
-    <configuration name="MainActivityInstrumentedTest$SimpleEntityReadWriteTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+    <configuration name="TaskUnitTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoc-master-app" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cleanup.todoc.*" />
@@ -72,8 +72,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cleanup.todoc" />
-      <option name="MAIN_CLASS_NAME" value="com.cleanup.todoc.MainActivityInstrumentedTest$SimpleEntityReadWriteTest" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanup.todoc.TaskUnitTest" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskUnitTest.deleteTask" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="todoc-master-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cleanup.todoc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.cleanup.todoc" />
+      <option name="MAIN_CLASS_NAME" value="com.cleanup.todoc.TaskUnitTest" />
+      <option name="METHOD_NAME" value="deleteTask" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
@@ -236,11 +253,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deleteTask()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="deleteTask" />
-      <option name="CLASS_NAME" value="com.cleanup.todoc.DataBaseTest" />
+    <configuration name="MainActivityInstrume..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="todoc-master-app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.cleanup.todoc.MainActivityInstrumentedTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -284,11 +301,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="writeUserAndReadIn...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="app" />
+    <configuration name="sortTasks()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="todoc-master-app" />
       <option name="TESTING_TYPE" value="3" />
-      <option name="METHOD_NAME" value="writeUserAndReadInList" />
-      <option name="CLASS_NAME" value="com.cleanup.todoc.DataBaseTest" />
+      <option name="METHOD_NAME" value="sortTasks" />
+      <option name="CLASS_NAME" value="com.cleanup.todoc.MainActivityInstrumentedTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -335,9 +352,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Android Instrumented Tests.DataBaseTest" />
-        <item itemvalue="Android Instrumented Tests.deleteTask()" />
-        <item itemvalue="Android Instrumented Tests.writeUserAndReadIn...()" />
-        <item itemvalue="Android JUnit.MainActivityInstrumentedTest$SimpleEntityReadWriteTest" />
+        <item itemvalue="Android Instrumented Tests.sortTasks()" />
+        <item itemvalue="Android Instrumented Tests.MainActivityInstrume..." />
+        <item itemvalue="Android JUnit.TaskUnitTest" />
+        <item itemvalue="Android JUnit.TaskUnitTest.deleteTask" />
       </list>
     </recent_temporary>
   </component>
@@ -392,22 +410,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1084" y="340" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593445545205" />
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1593447107298">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom" timestamp="1593494030936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107298" />
-    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1593447107297">
+    <state width="1877" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593494030936" />
+    <state width="1877" height="373" key="GridCell.Tab.0.center" timestamp="1593494030936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107297" />
-    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1593447107297">
+    <state width="1877" height="373" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593494030936" />
+    <state width="1877" height="373" key="GridCell.Tab.0.left" timestamp="1593494030936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107297" />
-    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1593447107298">
+    <state width="1877" height="373" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593494030936" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right" timestamp="1593494030936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593447107298" />
+    <state width="1877" height="373" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593494030936" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1591354743615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

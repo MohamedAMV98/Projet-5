@@ -11,6 +11,7 @@ import java.util.Date;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Unit tests for tasks
@@ -97,5 +98,23 @@ public class TaskUnitTest {
         assertSame(tasks.get(0), task1);
         assertSame(tasks.get(1), task2);
         assertSame(tasks.get(2), task3);
+    }
+
+    @Test
+    public void addTask(){
+        final Task task1 = new Task(1, 4,"yyy", 136);
+        final ArrayList<Task> tasks = new ArrayList<>();
+        tasks.add(task1);
+        assertTrue(tasks.size() == 1);
+    }
+
+    @Test
+    public void deleteTask(){
+        final Task task2 = new Task(2, 5, "fff", 137);
+        final ArrayList<Task> tasks = new ArrayList<>();
+        tasks.add(task2);
+        assertTrue(tasks.size() == 1);
+        tasks.remove(task2);
+        assertTrue(tasks.size() == 0);
     }
 }
