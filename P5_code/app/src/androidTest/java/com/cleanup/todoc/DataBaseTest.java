@@ -18,6 +18,7 @@ import org.junit.runner.RunWith;
 import java.io.IOException;
 import java.util.List;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 
@@ -60,6 +61,15 @@ public class DataBaseTest {
         this.db.mTaskDao().deleteTask(TASK);
         testList = LiveDataTestUtil.getValue(db.mTaskDao().getTasks());
         assertTrue( testList.size() == 0);
+    }
+
+    @Test
+    public void getTasks() throws Exception {
+        List<Task> tasks = LiveDataTestUtil.getValue(this.db.mTaskDao().getTasks());
+        assertTrue(tasks.isEmpty());
+        db.mTaskDao().createTask(TASK);
+        tasks = LiveDataTestUtil.getValue(this.db.mTaskDao().getTasks());
+        assertFalse(tasks.size() == 0);
     }
 }
 
